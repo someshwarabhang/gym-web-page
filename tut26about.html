@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <style>
+         body{
+            color: white;
+            background: url(sven-mieke-MsCgmHuirDo-unsplash.jpg);
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        
+        .left{
+            position: absolute;
+            left: 32px;
+            top: 10px;
+            display: inline-block;
+        }
+
+        .left img{
+            width:81px;
+            filter: invert(100%);
+            border-radius: 45px;
+            border: 2px solid gray;
+            
+        }
+
+        .mid{
+            display: block;
+           width: 40%;
+           margin: 15px auto;
+        }
+
+        .right{
+            position: absolute;
+            right: 10px;
+            top: 15px;
+            display: inline-block;
+
+        }
+        .btn{
+            padding: 7px 22px;
+            margin: 15px;
+            font-weight: bold;
+            border-radius: 5px;
+            color: white;
+            background-color: rgb(27, 11, 11);
+            font-size: 15px;
+            border: 2px solid gray;
+        }
+        .btn:hover{
+            color:#bea3a3;
+            cursor: pointer;
+        }
+
+        .navbar{
+            display: inline-block;
+        }
+
+        .navbar li{
+            display: inline-block;
+            font-size: 20px;
+           
+        }
+
+        .navbar a{
+            text-decoration: none;
+            padding: 34px 23px;
+            color:white;
+        }
+
+        .navbar a:hover,a.active{
+            text-decoration: underline;
+            color:#bbaeae;
+        }
+        
+        .content-wraper{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            gap: 30px;
+        }
+
+        .container{
+            flex: 1 1 45%;
+            padding: 20px;
+            background:rgba(0, 0, 0, 0.6) ;
+            border-radius: 10px;
+            border: solid 2px whitesmoke;
+        }
+
+        .offer{
+            flex: 1 1 45%;
+            padding: 20px;
+            background:rgba(0, 0, 0, 0.6) ;
+            border-radius: 10px;
+            border: solid 2px whitesmoke; 
+        }
+        p,.offer li{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        footer{
+            text-align: center;
+            background-color:#c3a9a9;
+            margin: 0px 0px;
+            padding: 2px 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+        <img src="download.png" alt=" logo">
+        </div>
+        <!-- mid box for navabr -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="http://127.0.0.1:5500/tut26project.html">Home</a></li>
+                <li><a href="">Fitness Calculator</a></li>
+                <li><a href=""class="active">About Us </a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        
+        </div>
+        <!-- right box for button  -->
+        <div class="right">
+           <button class="btn">Call Now</button>
+           <button class="btn">Help </button>
+        </div>
+    </header>
+    <div class="content-wraper">
+    <div class="container"> 
+          <h1>About Us</h1>
+          <h2>
+            Welcome to Fitness First– Where Fitness Meets Community.
+          </h2>
+          <p>
+            At Fitness First, we’re more than just a gym – we’re a community dedicated to <br>
+             helping you become your strongest, healthiest self. Whether you're a seasoned <br>
+             athlete, a fitness beginner, or someone getting back into the groove, we’ve <br>
+             created a space that supports every step of your journey.
+          </p>
+          <h2>
+            Our Mission
+          </h2>
+          <p>
+            To inspire and empower individuals to lead healthier lives through fitness, <br>
+              motivation, and a supportive environment.
+          </p>
+          <h2>
+            Why Choose Us?
+          </h2>
+          <p>
+            We're passionate about helping people transform their lives. With flexible <br>
+             membership plans, expert guidance, and a friendly, judgment-free zone, [Your Gym Name] is your ultimate fitness destination.
+          </p>
+          <h2>
+            Join Our Fit Family
+          </h2>
+          <p>
+            Come for the workout – stay for the community. <br>
+            We can’t wait to welcome you to the Fitness First family.
+          </p>
+    </div>
+    <div class="offer">
+        <h1>What We Offer</h1>
+        <ul>
+            <li>State-of-the-art equipment for strength, cardio, and functional training</li>
+            <li>A wide range of group classes, from HIIT and yoga to spin and Zumba</li>
+            <li>Certified personal trainers and wellness coaches</li>
+            <li>Clean, modern facilities with locker rooms, showers, and recovery areas</li>
+            <li>24/7 access for members</li>
+        </ul>
+    </div>
+    </div>
+    <footer>
+        <h3>© 2025 MyWebsite. All rights reserved.</h3>
+    </footer>
+</body>
+</html>
